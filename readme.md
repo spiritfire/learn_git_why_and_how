@@ -100,5 +100,70 @@
 
 </details>
 
+<details><summary>git stash</summary>
 
+</details>
 
+<details><summary>git stash list</summary>
+
+</details>
+
+<details><summary>git stash pop</summary>
+
+</details>
+
+<details><summary>git stash apply stash@[号码]</summary>
+
+</details>
+
+<details><summary>git cherry-pick <提交></summary>
+
+</details>
+
+<details><summary>git checkout -b dev origin/dev</summary>
+
+</details>
+
+<details><summary>git pull</summary>
+
+</details>
+>
+<details><summary>git branch --set-upstream-to=origin/dev dev</summary>
+
+</details>
+
+<details><summary>git tag v1.0</summary>
+
+</details>
+
+<details><summary>git tag </summary>
+
+</details>
+
+<details><summary>git tag v0.9 f223344</summary>
+
+</details>
+
+<details><summary>git show v0.9</summary>
+
+</details>
+
+<details><summary>git tag -a v0.1 -m "version 0.1 release" 12abda </summary>
+
+</details>
+
+<details><summary>git tag -d v0.1</summary>
+
+</details>
+
+<details><summary>git push origin <tagname></summary>
+
+</details>
+
+<details><summary>git push origin --tags</summary>
+
+</details>
+
+<details><summary>git push origin :refs/tags/<tagname></summary>
+
+</details>
