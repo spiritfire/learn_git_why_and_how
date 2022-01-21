@@ -52,11 +52,51 @@
 
 </details>
 
-<details><summary>git rm <file></summary>
+<details><summary>git remote add origin <git adress></summary>
 
 </details>
 
-<details><summary>git rm <file></summary>
+<details><summary>git push -u origin master</summary>
+
+</details>
+
+<details><summary>git push origin master</summary>
+
+</details>
+
+<details><summary>git clone <git address></summary>
+
+</details>
+
+<details><summary>git remote -v</summary>
+
+</details>
+
+<details><summary>git remote rm <name></summary>
+
+</details>
+
+<details><summary>git branch <name> </summary>
+
+</details>
+
+<details><summary>git switch <name></summary>
+
+</details>
+
+<details><summary>git switch -c <name></summary>
+
+</details>
+
+<details><summary>git branch</summary>
+
+</details>
+
+<details><summary>git merge <name></summary>
+
+</details>
+
+<details><summary>git branch -d <name></summary>
 
 </details>
 
