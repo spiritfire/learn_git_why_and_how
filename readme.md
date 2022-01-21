@@ -127,7 +127,7 @@
 <details><summary>git pull</summary>
 
 </details>
->
+
 <details><summary>git branch --set-upstream-to=origin/dev dev</summary>
 
 </details>
