@@ -141,18 +141,20 @@
 
 <details><summary>git revert</summary>
 
-  The story progressed, and I had reached Chapter 8.  
-  The boss rushed over in a panic: "Legal called! In Chapter 3, the luxury handbag given to the heroine didn't pay sponsorship fees. Cancel that specific commit! But DO NOT lose Chapters 4 through 8!"  
-  If I used `reset` back to Chapter 3, five chapters would be wiped out. Enter `revert`:
+  The story progressed, and I had smoothly reached Chapter 8.  
+  The boss rushed in, sweating profusely: "Legal just informed us that the luxury handbag the second male lead gave away in Chapter 3 infringes a trademark! Undo that product placement commit immediately! But DO NOT lose Chapters 4 through 8!"  
+
+  If I used `reset` back to Chapter 3, the five chapters I sweated over would be wiped out. Enter `revert`:
 
   ```bash
   # Assuming the product placement commit hash is 33a22bb
   git revert 33a22bb
-  ```
-
-  **Under the Hood:**  
-  `reset` erases history as if it never happened.  
-  `revert` **inverts history by appending a new commit**. It creates a brand-new Chapter 9 whose sole purpose is to "return the handbag," neutralizing the mistake while keeping all subsequent chapters intact.
+Metaphor in Action & Under the Hood:
+Git isn't an AI ghostwriter; it doesn't write new storylines. It simply performs precise inverse mathematics (a Reverse Patch):
+Back then, that commit added: + The guy flaunts a designer handbag.
+revert calculates the exact inverse: - The guy flaunts a designer handbag, and cleanly snips that line right out of your current Chapter 8 manuscript on the desk.
+It applies this deletion, preserves every other word from Chapters 4 to 8, and files a new receipt on the shelf: "This commit offsets commit 33a22bb".
+Result: History remains honest, all 8 chapters survive, the illegal bag evaporates, and you avoid a lawsuit!
 </details>
 
 <details><summary>git diff HEAD -- story.txt</summary>
