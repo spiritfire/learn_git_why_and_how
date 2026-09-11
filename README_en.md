@@ -149,6 +149,7 @@
   ```bash
   # Assuming the product placement commit hash is 33a22bb
   git revert 33a22bb
+```
 Metaphor in Action & Under the Hood:
 Git isn't an AI ghostwriter; it doesn't write new storylines. It simply performs precise inverse mathematics (a Reverse Patch):
 Back then, that commit added: + The guy flaunts a designer handbag.
